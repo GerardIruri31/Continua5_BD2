@@ -141,5 +141,4 @@ def count_pages(heap_path: str, page_size: int) -> int:
 
     if file_size % page_size != 0:
         raise ValueError("El heap file está corrupto o page_size no coincide con su estructura.")
-
     return file_size // page_size

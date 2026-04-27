@@ -250,4 +250,5 @@ def external_sort(heap_path: str, output_path: str, page_size: int, buffer_size:
         "time_phase1_sec": fin_phase1 - inicio_phase1,
         "time_phase2_sec": fin_phase2 - inicio_phase2,
         "time_total_sec": fin_total - inicio_total
+
     }
